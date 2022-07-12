@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinojs</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="pricipal">
+        <div class="boxcenter">
+            <div class="inputsn">
+                <input type="number" id="n1"> +
+                <input type="number" id="n2">
+            </div>
+
+            <div class="botao">
+              <input type="button" value="calcular" id="botao" onclick="calcular()">
+            </div>
+
+            <div class="resultado"  id="res">
+               
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        function calcular(){
+        
+            var x = document.getElementById('n1')
+            var y = document.getElementById('n2')
+            var res = document.getElementById('res')
+            var a= Number(n1.value)
+            var b = Number(n2.value)
+            var s = a + b
+            res.innerHTML = s  
+
+         }
+
+    </script>
+</body>
+
+</html>
